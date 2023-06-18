@@ -10,11 +10,16 @@
   justify-content: right;
 }
 
+.hamberger img {
+  cursor: pointer;
+}
+
 .icon {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 20px;
+  cursor: pointer;
 }
 .icon > div {
   margin-left: 5px;
@@ -31,7 +36,7 @@
 
 .start {
   border: 2px solid #202020;
-  cursor: pointer;
+  cursor: default;
   border-radius: 20px;
   padding: 5px 15px;
   text-align: center;
