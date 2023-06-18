@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Radio+Canada:wght@500;600&display=swap");
     </style>
   </head>
   <body>
@@ -30,50 +31,87 @@
     <!--메인 단어-->
     <main>
       <div class="board-row row-0">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-block" data-index="00"></div>
+        <div class="board-block" data-index="01"></div>
+        <div class="board-block" data-index="02"></div>
+        <div class="board-block" data-index="03"></div>
+        <div class="board-block" data-index="04"></div>
       </div>
       <div class="board-row row-1">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-block" data-index="10"></div>
+        <div class="board-block" data-index="11"></div>
+        <div class="board-block" data-index="12"></div>
+        <div class="board-block" data-index="13"></div>
+        <div class="board-block" data-index="14"></div>
       </div>
       <div class="board-row row-2">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-block" data-index="20"></div>
+        <div class="board-block" data-index="21"></div>
+        <div class="board-block" data-index="22"></div>
+        <div class="board-block" data-index="23"></div>
+        <div class="board-block" data-index="24"></div>
       </div>
       <div class="board-row row-3">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-block" data-index="30"></div>
+        <div class="board-block" data-index="31"></div>
+        <div class="board-block" data-index="32"></div>
+        <div class="board-block" data-index="33"></div>
+        <div class="board-block" data-index="34"></div>
       </div>
       <div class="board-row row-4">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-block" data-index="40"></div>
+        <div class="board-block" data-index="41"></div>
+        <div class="board-block" data-index="42"></div>
+        <div class="board-block" data-index="43"></div>
+        <div class="board-block" data-index="44"></div>
       </div>
       <div class="board-row row-5">
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
-        <div class="board-block"></div>
+        <div class="board-block" data-index="50"></div>
+        <div class="board-block" data-index="51"></div>
+        <div class="board-block" data-index="52"></div>
+        <div class="board-block" data-index="53"></div>
+        <div class="board-block" data-index="54"></div>
       </div>
     </main>
 
     <!--하단 키보드-->
-    <footer></footer>
+    <footer>
+      <div class="keyboard keyboard-0">
+        <div class="keyboard__word" data-key="Q">Q</div>
+        <div class="keyboard__word" data-key="W">W</div>
+        <div class="keyboard__word" data-key="E">E</div>
+        <div class="keyboard__word" data-key="R">R</div>
+        <div class="keyboard__word" data-key="T">T</div>
+        <div class="keyboard__word" data-key="Y">Y</div>
+        <div class="keyboard__word" data-key="U">U</div>
+        <div class="keyboard__word" data-key="I">I</div>
+        <div class="keyboard__word" data-key="O">O</div>
+        <div class="keyboard__word" data-key="P">P</div>
+      </div>
+      <div class="keyboard keyboard-1">
+        <div class="keyboard__word" data-key="A">A</div>
+        <div class="keyboard__word" data-key="S">S</div>
+        <div class="keyboard__word" data-key="D">D</div>
+        <div class="keyboard__word" data-key="F">F</div>
+        <div class="keyboard__word" data-key="G">G</div>
+        <div class="keyboard__word" data-key="H">H</div>
+        <div class="keyboard__word" data-key="J">J</div>
+        <div class="keyboard__word" data-key="K">K</div>
+        <div class="keyboard__word" data-key="L">L</div>
+      </div>
+      <div class="keyboard keyboard-2">
+        <div class="keyboard__word wide" data-key="ENTER">ENTER</div>
+        <div class="keyboard__word" data-key="Z">Z</div>
+        <div class="keyboard__word" data-key="X">X</div>
+        <div class="keyboard__word" data-key="C">C</div>
+        <div class="keyboard__word" data-key="V">V</div>
+        <div class="keyboard__word" data-key="B">B</div>
+        <div class="keyboard__word" data-key="N">N</div>
+        <div class="keyboard__word" data-key="M">M</div>
+        <div class="keyboard__word wide" data-key="back">
+          <img src="assets/back.svg" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
