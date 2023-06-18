@@ -1,0 +1,44 @@
+.menu {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eef0f1;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.icon > div {
+  margin-left: 5px;
+}
+
+.menu img {
+  width: 40px;
+  height: 40px;
+}
+
+.menu > div {
+  width: 33.33%;
+}
+
+.start {
+  border: 2px solid #202020;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-align: center;
+}
+.wordle {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
