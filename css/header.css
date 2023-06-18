@@ -4,10 +4,6 @@
   border-bottom: 1px solid #eef0f1;
 }
 
-.hamberger img {
-  cursor: pointer;
-}
-
 .icons {
   display: flex;
   align-items: center;
@@ -19,7 +15,6 @@
   align-items: center;
   justify-content: center;
   margin-right: 20px;
-  cursor: pointer;
 }
 .icon > div {
   margin-left: 5px;
@@ -36,10 +31,10 @@
 
 .start {
   border: 2px solid #202020;
+  cursor: pointer;
   border-radius: 20px;
   padding: 5px 15px;
   text-align: center;
-  cursor: default;
 }
 .wordle {
   font-size: 50px;
